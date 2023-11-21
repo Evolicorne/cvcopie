@@ -1,0 +1,125 @@
+body{
+    margin-left: 3%;
+    margin-right: 4%;
+}
+
+    header
+    {
+        display: flex;
+        padding-top: 6%;
+    }
+
+        h1
+    {
+        border: 3px solid black;
+        color: green;
+        text-align: center;
+    }
+        h2{
+                font-style: italic;
+            }
+
+            ul
+            {
+                list-style-type: none;
+                padding-left: 5%;
+            
+                
+            }
+    
+            li{
+                width: 100%;
+                margin-top: 5px;}
+                        
+            table {
+                    margin-left: 30%;
+                    border: thin solid black;
+                    border-collapse: collapse;
+                    width: 500px;
+                    }
+                th {
+                    font-family: monospace;
+                    border: thin solid black;
+                    width: 125px;
+                    padding: 5px;
+                    }
+                td {
+                    font-family: sans-serif;
+                    border: thin solid black;
+                    width: 50%;
+                    padding: 5px;
+                    text-align: center;
+                    ;
+                    }
+            caption {
+                font-family: sans-serif;
+                }
+            span{
+                    border:3px solid black;
+                    margin-top: 10%;
+                    margin-left: 35%;
+                    background-color: rgb(228, 228, 200);
+                    }
+                        .contenant
+                            {
+                                display: flex;
+                            }
+                                                
+                        .contenu ul
+                        {
+                            padding-bottom: 10px;
+                        }
+                
+                        .exp{
+                            list-style-type: square;
+                            text-indent: 5%;
+                            width: 100%;
+                        }
+
+                        .bg_grey{
+                            background-color: rgb(216, 215, 215);
+                        }
+
+                        .bg_green{
+                            background-color: rgb(213, 234, 183);
+                        }
+
+                            #avatar img {
+                                width: 17%;
+                                height: auto;
+                                display: flex;  
+                                
+                            }
+
+                            #adresse, #contact{
+                                width: 30%;
+                            }
+
+
+                            #info_formation{
+                                padding-left: 10%;
+                            }
+
+
+                            #liste-exp{
+                                width: 70%;
+                            }
+
+#list-exp ul{
+    margin-top: 20px;
+}
+
+#date{
+    margin-top: 100px;
+}
+
+
+
+
+
+
+
+
+#logiciel{
+    display: flex;
+}
